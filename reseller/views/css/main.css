@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/*Custom CSS*/
+
+*
+{
+  font-family: 'Lato', sans-serif;
+}
+
+.nav li a{
+  color: #212121;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.custom_tooltip{
+  position: absolute;
+  background: #f8f8f8;
+  top: 90px;
+  right: 10px;
+  border: 2px solid #2d2d2d;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-color: #ffffff;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.user{
+  width: 8%;
+  float: right;
+  margin: 15px;
+  border: 1px solid #0f0f0f;
+  border-radius: 50px;
+}
+
+.settings_head{
+  list-style: none;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  color: #000000;
+}
+
+.settings_head li{
+  padding: 10px 15px;
+  color: #000000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.settings_head li a:hover{
+  text-decoration: none;
+}
+
+.settings_head li:hover{
+  background: #ffa500;
+  border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btn-read{
+  float: right;
+    background: #2d2d2d;
+    border-radius: 2px;
+    border: 1px solid #212121;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.btn_approve{
+    background: green;
+    border-radius: 2px;
+    border: none;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn_reject{
+  background: red;
+    border-radius: 2px;
+    border: 1px solid #212121;
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn_custom{
+  background: #2d2d2d;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #212121;
+    padding: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.breadcrumb_custom
+{
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #3a3a3a;
+  border-radius: 0.25rem;
+  color: #ffffff;
+}
+
+.breadcrumb_custom p
+{
+  margin: 0;
+}

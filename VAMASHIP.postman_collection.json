@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "6964e888-1de2-4f23-9705-fc115f7de1cb",
+		"name": "VAMASHIP",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ecom3stagingapi.vamaship.com/ecom/api/v1/dom/quote",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "vbb8Ty5Er5YQb9lJLEhBJbRkFE6WnXQMzB3RU7TR1",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"seller\": {\r\n    \"address\": \"C-505/Vrindavan Gardens\",\r\n    \"city\": \"Vasai\",\r\n    \"country\": \"India\",\r\n    \"email\": \"seller@bizstreet.com\",\r\n    \"name\": \"Rahul Ghose\",\r\n    \"phone\": \"99999999999\",\r\n    \"pincode\": \"401208\",\r\n    \"state\": \"Maharashtra\"\r\n  },\r\n  \"shipments\": [\r\n    {\r\n      \"gst_tin\": \"\",\r\n      \"hsn_code\": \"\",\r\n      \"address\": \"B-21/Alaknanda\",\r\n      \"breadth\": \"10\",\r\n      \"city\": \"Jaipur\",\r\n      \"country\": \"India\",\r\n      \"email\": \"george.cloney@hollywood.com\",\r\n      \"height\": \"10\",\r\n      \"is_cod\": false,\r\n      \"length\": \"10\",\r\n      \"name\": \"George Cloney\",\r\n      \"phone\": \"88888888888\",\r\n      \"pickup_date\": \"2015-12-20T14:15:16+05:30\",\r\n      \"pincode\": \"400068\",\r\n      \"product\": \"Diary\",\r\n      \"product_value\": 100,\r\n      \"quantity\": 1,\r\n      \"reference1\": \"002\",\r\n      \"reference2\": \"refno2\",\r\n      \"state\": \"Rajasthan\",\r\n      \"unit\": \"cm\",\r\n      \"weight\": \"0.6\",\r\n      \"cargo_type\": \"general\",\r\n      \"liability\": \"no\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://ecom3stagingapi.vamaship.com/ecom/api/v1/dom/quote",
+					"protocol": "https",
+					"host": [
+						"ecom3stagingapi",
+						"vamaship",
+						"com"
+					],
+					"path": [
+						"ecom",
+						"api",
+						"v1",
+						"dom",
+						"quote"
+					]
+				},
+				"description": "Vamaship Shipping Quote API"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
